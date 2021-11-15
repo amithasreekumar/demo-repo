@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    font-weight:normal;
+    color: #777;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+
+}
+.nav li {
+    display: inline;
+    padding: 5em;
+   
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("image/fr.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: 300px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    
+}
+.section container{
+    margin: 1em;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+a{
+    color: rgb(71, 190, 121);
+    text-decoration: none;
+}
+.h1{
+    text-align: center;
+}
+li{
+    color:black ;
+}
+th{
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+  }
+table {
+    width:100%;
+    border-collapse :collapse;
+    
+}
+th, td{
+    padding: 5px;
+}
+li {
+    display: inline-block;
+   
+ 
+}
+.ul{
+    align-items: center;
+} 
+
+
